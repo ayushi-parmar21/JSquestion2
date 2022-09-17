@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ColorFliper.com</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>Change The Color By Input</h1>
+    <input type="type" id="colorinputtext">
+    <input type="button" id="color button" value="click to change color" onclick="changeColor()">
+    <script>
+        function changeColor() {
+            let color = document.getElementById("colorinputtext").value;
+            document.body.style.backgroundColor = color
+        }
+    </script>
+</body>
+
+</html>
